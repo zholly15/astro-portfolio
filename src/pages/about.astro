@@ -1,0 +1,80 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer.astro';
+import Nav from '../components/Nav.astro';
+---
+
+<html lang="en">
+	<head>
+		<MainHead title="About | Zachary Holly" description="Mentor, Engineer, Volunteer" />
+		<style>
+			.heroImg {
+				max-height: 24rem;
+				object-fit: cover;
+				overflow: hidden;
+			}
+
+			.heroImg img {
+				width: 100%;
+			}
+
+			.bio {
+				font-size: var(--f-u1);
+				line-height: 2;
+				margin-top: 4em;
+			}
+
+			.wrapper.bio {
+				max-width: 50em;
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<h1>About Zachary</h1>
+			<div class="heroImg">
+				<img
+					width="1400"
+					height="350"
+					src="/assets/SeattleSkyLine.jpg"
+				/>
+			</div>
+			<div class="bio wrapper">
+				<p>
+					Software Engineer at 1stMile LLC. Currently building .Net ecommerce applications. 
+					Working with a small team to maintain legacy applications and build new solutions
+					to reach new customers in the automotive industry. Beginning my career at 1st 1stMile
+					has led to incredible opportunites in learning full scale deployment and working on
+					features from idea to beyond deployment.
+				</p>
+				<p>
+					Over the past 2 years, I have graduated from Seattle University with a Bachelors of Science
+					in Computer Science. During that time I also worked at Kenworth Trucking building and deploying 
+					a machine learning application to enhance engineering response time. I also began my post 
+					University career as a Software Engineer 1 at 1stMile, where I hope to refine my skills and gain
+					invaluable experience to launch my career to the next step. 
+				</p>
+				<p>
+					I also enjoy working with Object Oriented Programming languages, specifically C# and C++.
+					Currently learning Unreal Engine to begin exploring game development and refine 
+					my OOP skills. I have a background in Refactoring, Machine Learning, full stack
+					deployment, and robotics.
+				</p>
+				<p>
+					Outside of coding and work I enjoy exploring Seattle and finding a new favorite 
+					Coffee Shop. I am also an avid soccer fan (Go Sounders!⚽) and baseball fan (Go Mariners!⚾)
+					I also love going to concerts and just taking in the local Seattle music scene.
+
+				</p>
+				<p>
+					Additionally outside of work, I mentor FIRST Robotics Competition (FRC) Team 5588. Specifically
+					I mentor the programming and scouting teams. Teaching high school students in Java while 
+					they build a robot to compete in FRC.  As a alumni of FRC Team 2910, being able to give back
+					to the program that inspired my passion for software engineering continutes to be the greatest gift.
+				</p>
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>
