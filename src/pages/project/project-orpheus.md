@@ -5,7 +5,7 @@ client: Self
 publishDate: 2022-09-30 00:00:00
 img: https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 description: |
-  We built an social media wrapper for Spotify
+  Bringing Social Media to Your Playlists!
 tags:
   - design
   - dev
